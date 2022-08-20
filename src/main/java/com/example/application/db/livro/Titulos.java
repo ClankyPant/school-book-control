@@ -1,14 +1,13 @@
 package com.example.application.db.livro;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Titulos {
 
-    private String tituloDoLivro;
+    private String titulo;
 
-    public String getTituloDoLivro() {
-        return tituloDoLivro;
-    }
 
-    public void setTituloDoLivro(String tituloDoLivro) {
-        this.tituloDoLivro = tituloDoLivro;
-    }
 }
